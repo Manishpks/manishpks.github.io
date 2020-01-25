@@ -132,3 +132,11 @@ h2{
   color: rgb(0,197,255);
   padding-left: 15vw;
 }
+.resume{
+  border: none;
+  background-color: rgb(0,197,255);
+  padding: 4vh 2vw;
+  color: rgb(25, 22, 33);
+  font-size: 5vh;
+  margin: auto auto;
+}

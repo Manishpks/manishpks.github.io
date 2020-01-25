@@ -76,7 +76,7 @@ h2{
 .button2{
   background-color: rgb(252,217,0);
   color: black;
-  font-family: "walkway_oblique_boldregular";
+  font-family: 'walkway_oblique_boldregular';
   border: none;
   font-size: 15px;
   padding: 1vh 10px;
@@ -109,4 +109,12 @@ h2{
 .skillsDet{
   font-size: 2vw;
   color: rgb(252,217,0);
+}
+.blink{
+		animation: blink 1s linear infinite;
+	}
+@keyframes blink{
+0%{opacity: 0;}
+50%{opacity: .5;}
+100%{opacity: 1;}
 }

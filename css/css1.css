@@ -1,60 +1,112 @@
+@font-face {
+    font-family: 'walkway_oblique_semiboldRg';
+    src: url('../font/walkway_oblique_semibold-webfont.woff2') format('woff2'),
+         url('../font/walkway_oblique_semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'walkway_oblique_boldregular';
+    src: url('../font/walkway_oblique_bold-webfont.woff2') format('woff2'),
+         url('../font/walkway_oblique_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 body{
-  background-color: rgb(1, 0, 14);
-  font-family: "Lucida Console",Monaco,monospace;
+  background-color: rgb(25, 22, 33);
+  font-family: 'walkway_oblique_boldregular';
+  font-weight: bold;
 }
-.profile{
-  margin: 0 auto;
-  margin-bottom: 3%;
-  width:auto;
-}
-
-p{
-  color: green;
-}
-.details{
-  margin: 0 auto;
-}
-.hello{
-  color: green;
-  margin: 0 auto;
-}
-.blink{
-  animation: blink 1s infinite;
-}
-@keyframes blink {
-  0%{opacity: 0;}
-  50%{opacity: .5;}
-  100%{opacity: 1;}
-}
-.avatar{
-  height: 15vw;
-  width: 15vw;
-  border: 3px solid green;
-  border-radius: 50%;
-  margin: 0 auto;
-  margin-top: 10%;
-}
-
 h1{
-    margin-top: 5%;
-    font-weight: bold;
-    font-stretch: expanded;
-    font-size: 4vw;
+  font-family: "Courier New";
+  color: rgb(0,230,0);
+  font-size: 5.5vw;
+}
+h2{
+  padding: 2vh 3vw;
+  font-size: 4vw;
 }
 .head{
-  vertical-align: middle;
-
+  height: auto;
+  width: 100%;
+  background-color: rgb(0,230,0);
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
-.knowMore{
-  border-bottom: 2px solid green;
+.button1{
+  background-color: rgb(0,230,0);
+  border: none;
+  padding: 2vh 10px;
+  font-size: 4vh;
 }
-#button1{
-  background-color: rgb(1, 0, 14);
-  border:3px solid green;
-  color: green;
-  padding: 1% 3%;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
+.button1:hover{
+  background-color: rgb(0,200,0);
+}
+.home{
+  height: auto;
+  width: 95vw;
+}
+.avatar{
+  height: 25vw;
+  width: 25vw;
+  border: 3px solid rgb(0,230,0);
+  border-radius: 50%;
+}
+.picture{
+  width: 30vw;
+  height: 30vw;
+  padding-left: 4vw;
+  padding-right: 4vw;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  margin: 0 auto;
+}
+.intro
+{
+  padding:2vw;
+  text-align: left;
+}
+.tag{
+  color: rgb(0,197,255);
+  font-size: 3vw;
+  font-family: "Courier new"
+}
+.button2{
+  background-color: rgb(252,217,0);
+  color: black;
+  font-family: "Lucidia Sans";
+  border: none;
+  font-size: 15px;
+  padding: 1vh 10px;
+  border-radius: 20px;
+  margin-top: 1vh;
+  margin-bottom: 2vh;
+}
+.button2:hover{
+  background-color: rgb(222,191,0);
+}
+.about{
+  background-color: rgb(1,20,56);
+}
+.aboutMe{
+  color: rgb(0,230,0);
+}
+.aboutDet{
+  color: rgb(252,217,0);
+  padding-left: 10vw;
+  font-size: 3vw;
+}
+.skills{
+  background-color: rgb(25, 22, 33);
+  color: rgb(0,197,255);
+}
+.skillsHead{
+  font-size: 3vw;
+    color: rgb(0,197,255);
+}
+.skillsDet{
   font-size: 2vw;
+  color: rgb(252,217,0);
 }

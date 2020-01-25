@@ -135,8 +135,26 @@ h2{
 .resume{
   border: none;
   background-color: rgb(0,197,255);
-  padding: 4vh 2vw;
+  padding: 2vh 2vw;
   color: rgb(25, 22, 33);
-  font-size: 5vh;
-  margin: auto auto;
+  font-size: 2vw;
+  border-radius: 20px;
+}
+.connect{
+  color: rgb(252,217,0);
+  font-size: 3vw;
+}
+.fa{
+  font-size: 5vw;
+  color: rgb(0,197,255);
+}
+a{
+  color: rgb(0,197,255);
+  text-decoration: none;
+}
+.foot{
+  border-top: 2px solid rgb(0,230,0);
+  padding: 3vh;
+  height: 2vh;
+  color: rgb(0,230,0);
 }

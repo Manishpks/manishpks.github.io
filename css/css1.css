@@ -39,7 +39,7 @@ h2{
   background-color: rgb(0,230,0);
   border: none;
   padding: 2vh 10px;
-  font-size: 3vw;
+  font-size: 4vh;
 }
 .button1:hover{
   background-color: rgb(0,200,0);
@@ -117,4 +117,18 @@ h2{
 0%{opacity: 0;}
 50%{opacity: .5;}
 100%{opacity: 1;}
+}
+.exp{
+  background-color: rgb(1,20,56);
+  color: rgb(252,217,0);
+}
+.expHead{
+  font-size: 3vw;
+  color: rgb(252,217,0);
+  padding-left: 10vw;
+}
+.expDet{
+  font-size: 2vw;
+  color: rgb(0,197,255);
+  padding-left: 15vw;
 }

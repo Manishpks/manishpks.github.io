@@ -7,14 +7,28 @@
     <link rel="icon" href="img/icon.jpg">
     <link rel="stylesheet" href="css/css1.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title></title>
+    <title>Manish Kumar</title>
+    <script type="text/javascript">
+      function scrol(sec){
+        switch (sec) {
+          case 1:document.getElementById('view1').scrollIntoView();
+            break;
+          case 2:document.getElementById('view2').scrollIntoView();
+            break;
+          case 3:document.getElementById('view3').scrollIntoView();
+            break;
+          default:
+
+        }
+      }
+    </script>
   </head>
   <body>
     <div class="head">
       <center>
-        <button type="button" class="button1" id="about">About</button>
-        <button type="button" class="button1" id="skills">Skills</button>
-        <button type="button" class="button1" id="experience">Experience</button>
+        <button type="button" class="button1" id="about" onclick="scrol(1)">About</button>
+        <button type="button" class="button1" id="skills" onclick="scrol(2)">Skills</button>
+        <button type="button" class="button1" id="experience" onclick="scrol(3)">Experience</button>
       </center>
     </div>
     <div class="container-fluid home">
@@ -37,24 +51,24 @@
       </div>
       <div class="row">
         <center>
-          <button type="button" class="button2" id="knowMore">Know More</button>
+          <button type="button" class="button2" id="knowMore" onclick="scrol(1)">Know More</button>
         </center>
       </div>
     </div>
-    <div class="container-fluid about">
+    <div class="container-fluid about" id="view1">
       <div class="row">
         <h2 class="aboutMe">About Me ( ){</h2>
       </div>
       <div class="row aboutDet">
         <p>// Programmer,Web Developer and a problem solver.</p>
         <p>// Curious to learn the latest technologies.</p>
-        <p>// Infosys Certified Software Programmer. <span class="glyphicon glyphicon-new-window icon"></span></p>
+        <p>// Infosys Certified Software Programmer. <a href="https://infytq.infosys.com/public/lex_auth_012770921691734016639/f7f034b6-31cb-4b81-b460-fa963f500394.pdf" target="_blank"><span class="glyphicon glyphicon-new-window icon"></span></a></p>
       </div>
       <div class="row">
         <h2 class="aboutMe">}</h2>
       </div>
     </div>
-    <div class="container-fluid skills">
+    <div class="container-fluid skills" id="view2">
       <div class="row">
         <h2 class="skills">< Skills ></h2>
       </div>
@@ -90,7 +104,7 @@
         </center>
       </div>
     </div>
-    <div class="container-fluid exp">
+    <div class="container-fluid exp" id="view3">
       <div class="row">
         <h2 class="exp">Experience :</h2>
       </div>
@@ -107,10 +121,12 @@
         <div>
           <center>
             <h3 class="connect">Connect at</h3>
-            <i class="fa fa-linkedin-square"></i>
+            <a href="https://www.linkedin.com/in/manish-kumar-96056557/" target="_blank"><i class="fa fa-linkedin-square"></i></a>
             <h3 class="connect">or,</h3>
             <h3 class="connect">mail me at <a href="mailto:manishpks@gmail.com">manishpks@gmail.com</a></h3><br>
-            <button type="button" class="resume">Download resume</button>
+            <a href="docs/resume.pdf" download>
+              <button type="submit" class="resume">Download resume</button>
+            </a>
             <br><br>
           </center>
         </div>
